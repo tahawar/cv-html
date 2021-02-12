@@ -1,0 +1,92 @@
+ <!DOCTYPE html>
+    <html>
+    <head>
+        <meta charset="utf=8">
+        <title>
+           
+            my first website
+        </title>
+    </head>
+
+    <body bgcolor="black" text="white" vlink="blue">
+        
+        <h1> Tahawar Ihsan </h1><br>
+
+        <form autocapitalize="on" action="mailto:kpsnarowal@gmail.com" method="POST" enctype="text/plain">
+            <fieldset>
+                <legend>user info</legend>
+
+                <div> <!--user info-->
+                    user info <br>
+                    first name <input type="text"   name="first name"   placeholder="first name" required><br>
+                    last name <input type="text"    name="last name"    placeholder="last name" required><br>
+                    Email  <input type="email"     name="password"     placeholder="Email" required><br>
+                    password <input type="password" name="password"     placeholder="password" autocapitalize="off"  required><br>
+                    date of birth<input type="date"  name="date of birth"  ><br><br><hr>
+                </div>
+                    <!--user gender-->
+
+                <h2>gender</h2><br>
+                <div>
+                    <input type="radio"    name="gender" value="Male"> Male <br>
+                    <input type="radio"    name="gender" value="female"> female <br>
+                    <input type="radio"    name="gender" value="female"> female <br><hr>
+                </div>
+
+                    <!--user vhicle-->
+<hr>
+                <h3>
+                    user vhicle 
+                </h3> <br>
+                <div> 
+                    <input type="checkbox"  name="vechileowend" value="car">i have a car <br>
+                    <input type="checkbox"  name="vechileowend" value="bike">i have a bike <br>
+
+                    <select name="bike" size="2" multiple>
+                        <option value="honda">honda</option>
+                        <option value="unique">unique</option>
+                        <option value="yamha">yamha</option>
+                    </select>
+                    <select name="car" size="2" multiple>
+                        <option value="bmw">bmw</option>
+                        <option value="tayota">tayota</option>
+                        <option value="coure">coure</option><hr>
+                    </select>
+                </div>
+                
+                <!--list of supoorted browers-->
+            <div>
+                <input list="browers">
+                <datalist id="browers">
+
+                    <option value="opera">opera</option>
+                    <option value="chorme">chorme</option>
+                    <option value="bing">bing</option>
+                </datalist>
+
+            </div>
+
+            <div>
+                <hr>
+            <h2>enter your feedback </h2> <br><br>
+
+                <textarea name="feedback" placeholder="enter your feedback" style="width: 200px; height: 100px;"></textarea>
+            </div>
+
+            <div>
+            <input type="button" value="cookies"  onclick="alret('except cookies for bettrer your expirence')">
+                <br><input type="reset" value="clear">
+                
+            </div>
+<hr>
+            <h3>for file and range</h3>
+            <br>
+            file<input type="file">
+            range<input type="range">
+                    
+            <br><input type="submit" name="submit">
+            </fieldset>
+        </form>
+    </body>
+
+    </html>
